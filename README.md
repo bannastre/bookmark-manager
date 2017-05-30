@@ -7,11 +7,11 @@
 
 As a User
 So that I see bookmarks I've saved
-I want to see a list of links
+I want to see a list of links, in chronological order, on a homepage
 
 As a User
 So that I save bookmarks to view later
-I want to be able to add new links to the list
+I want to be able to add new links with an address and a title to the list
 
 As a User
 So that I can group bookmarks together
