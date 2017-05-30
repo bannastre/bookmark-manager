@@ -21,7 +21,7 @@ As a User
 So that I can quickly find similar bookmarks in the list
 I want to be able to filter links by tag
 
-Noun      | Verb    
+State     | Behaviour    
 ----------|----------
 User      |
 Link      | add_link
