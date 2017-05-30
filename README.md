@@ -29,3 +29,24 @@ Link      | add_tag_to_link
 List      | filter_by_tag
 List      | view_links
 Tag       | add_tag
+
+
+### Blog Post Regarding CRUD ###
+
+*CRUD* (Create, Read, Update, Delete)
+These are the four actions that can be taken on any database object
+
+Create - Inputting new records
+CREATE TABLE Students (ID int, Name varchar)
+
+Read - Showing or viewing records
+SELECT * FROM Students
+
+Update - Changing records
+UPDATE Students SET Name = 'Sam' WHERE Cohort = 'May 2017'
+
+Delete - Remove object from the database
+DELETE * FROM Students WHERE Banter = 'unsatisfactory'
+
+*SQL* (Structured Query Language)
+A database-specific language to be able to implement CRUD (but not much else)
