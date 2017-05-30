@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
-gem 'dm-migrations'
+gem 'capybara'
 gem 'data_mapper'
+gem 'dm-migrations'
 gem 'dm-postgres-adapter'
+gem 'rspec'
+gem 'sinatra'
