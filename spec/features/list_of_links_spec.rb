@@ -1,6 +1,12 @@
 feature 'See a list of links, in chronological order, on a homepage' do
   scenario 'User sees a list of links' do
-    visit '/'
-    expect(page).to have_link("http://google.co.uk")
+    Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+    visit '/links'
+
+    expect(page.status_code).to eq 200
+
+    within 'ul#links' do
+      expect(page).to have_content('Makers Academy')
+    end
   end
 end
