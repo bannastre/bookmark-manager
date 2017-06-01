@@ -1,6 +1,10 @@
 <h1>Bookmark Manager</h1>
 <h2> Links </h2>
 
+<form action'/links/new' method='get'>
+  <input type='submit' value='Add Link'>
+</form>
+
 <ul id='links'>
   <% @links.each do |link| %>
     <li>

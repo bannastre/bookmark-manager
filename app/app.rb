@@ -6,7 +6,7 @@ require_relative 'models/link'
 class BookmarkManager < Sinatra::Base
 
   get '/' do
-    "Hello Bookmarks!"
+    redirect ('/links')
   end
 
   get '/links' do
