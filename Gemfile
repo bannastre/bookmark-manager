@@ -1,9 +1,14 @@
 source "https://rubygems.org"
 
-gem 'capybara'
+ruby '2.3.1'
+
 gem 'data_mapper'
+gem 'database_cleaner'
 gem 'dm-migrations'
 gem 'dm-postgres-adapter'
-gem 'rspec'
 gem 'sinatra'
-gem 'database_cleaner'
+
+group :test do
+  gem 'capybara'
+  gem 'rspec'
+end
